@@ -3,19 +3,18 @@
 }
 
 body {  
-  background-color: #dadada;
-  font-size: 10px;
+  background-color: #bababa;
+  font-size: 30px;
 }
-
+/*
 .container {
 	background-color: #bababa;
-  	margin: 20px auto;
-  	width: 25%;
+  	width: 100%;
 }
-
+*/
 
 div {
-	padding: 40px 40px 200px 50px;
+	padding: 50px 50px 200px 50px;
 }
 
 
@@ -33,14 +32,13 @@ h2 {
 	color: #1c1c1c;
 	font-family: serif;
 	font-size: 2em;
-	font-weight: bold;
 
 }
 
 .preview {
 	background-size: cover;
-	margin: 0 0 20px 0;
-}
+	margin: 0 0 40px 0;
+	}
 
 
 .baku {
@@ -58,4 +56,3 @@ h2 {
 .rome {
 	background-image: url(../images/rome.jpg);
 }
-
