@@ -4,11 +4,11 @@
 
 body {  
   background-color: #bababa;
-  font-size: 30px;
+  font-size: 12px;
 }
 
 div {
-	padding: 100px 50px 200px 100px;
+	padding: 40px 40px 200px 40px;
 }
 
 
@@ -31,8 +31,7 @@ h2 {
 
 .preview {
 	background-size: cover;
-	margin: 0 0 60px 0;
-	height: 700px;
+	margin: 0 0 20px 0;
 	}
 
 
@@ -50,4 +49,21 @@ h2 {
 
 .rome {
 	background-image: url(../images/rome.jpg);
+}
+
+@media screen and (min-width: 575px) {
+	.preview {
+		display: inline-block;
+		width: 46%;
+		margin: 1%;
+		}
+}
+
+@media screen and (min-width: 991px) {
+	.preview {
+		display: inline-block;
+		width: 22%;
+		margin: 1%;
+		
+	}	
 }
